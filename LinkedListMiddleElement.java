@@ -49,6 +49,17 @@ public class LinkedListMiddleElement extends Node {
         }
     }
 
+//    public void deletemiddlenode(){
+//        int lengthofLL = getlength();
+//        int getMiddle = lengthofLL/2
+//    }
+
+
+
+
+
+
+
     public static void main(String[] args) {
         LinkedListMiddleElement list = new LinkedListMiddleElement();
 
