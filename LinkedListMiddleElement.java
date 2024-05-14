@@ -75,12 +75,7 @@ public class LinkedListMiddleElement extends Node {
         temp.next = temp2.next;
         temp2.next = null;
     }
-
-
-
-
-
-
+    
 
     public static void main(String[] args) {
         LinkedListMiddleElement list = new LinkedListMiddleElement();
