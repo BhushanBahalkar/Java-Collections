@@ -4,27 +4,27 @@ public class DoublelyLL extends Node{
 
     Node head =null;
 
-//
-//    public Node createNode(String data){
-//        Node obj = new Node();
-//        obj.prev = null;
-//        obj.data = data;
-//        obj.next = null;
-//        return obj;
-//    }
-//    public void add(String name) {
-//        Node newNode = createNode(name);
-//        if (head == null) {
-//            head = newNode;
-//        } else {
-//            Node temp = head;
-//            while (temp.next != null) {
-//                temp = temp.next;
-//            }
-//            temp.next = newNode;
-//            newNode.prev = temp;
-//        }
-//    }
+
+    public Node createNode(String data){
+        Node obj = new Node();
+        obj.prev = null;
+        obj.data = data;
+        obj.next = null;
+        return obj;
+    }
+    public void add(String name) {
+        Node newNode = createNode(name);
+        if (head == null) {
+            head = newNode;
+        } else {
+            Node temp = head;
+            while (temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = newNode;
+            newNode.prev = temp;
+        }
+    }
 
     public void addAt(int index, String data){
 
