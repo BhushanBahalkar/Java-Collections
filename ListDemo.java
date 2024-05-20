@@ -23,33 +23,33 @@ public class ListDemo {
         System.out.println("Size"+ size);
         System.out.println("List : " + list);
 
-        //Iterat list using for loop
+        Iterate list using for loop
 
-//        for(Integer data : list){
-//            System.out.println(data);
-//        }
+        for(Integer data : list){
+            System.out.println(data);
+        }
 
-        //Using forEach loop
+        Using forEach loop
 
-//        list.forEach(data -> {
-//            System.out.println(data) ;
-//        });
+        list.forEach(data -> {
+            System.out.println(data) ;
+        });
 
-        // Using Iterator
+         Using Iterator
 
-//        Iterator<Integer> iterator = list.iterator();
+        Iterator<Integer> iterator = list.iterator();
 
-//        while(iterator.hasNext()){
-//            System.out.println(iterator.next());
-//        }
+        while(iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
 
-        //ListItterator
+        ListItterator
 
-//        ListIterator<Integer> listIterator = list.listIterator();
-//        while(listIterator.hasNext()){
-//            System.out.println(listIterator.next());
-//            System.out.println(listIterator.nextIndex());
-//        }
+        ListIterator<Integer> listIterator = list.listIterator();
+        while(listIterator.hasNext()){
+            System.out.println(listIterator.next());
+            System.out.println(listIterator.nextIndex());
+        }
 
         System.out.println(list.get(0));
 

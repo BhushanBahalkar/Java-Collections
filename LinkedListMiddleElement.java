@@ -41,13 +41,13 @@ public class LinkedListMiddleElement extends Node {
         System.out.println("Middle element: " + temp.name);
     }
 
-    public void printMyLinkedList() {
-        Node temp = head;
-        while (temp != null) {
-            System.out.println(temp.name);
-            temp = temp.next;
-        }
-    }
+//    public void printMyLinkedList() {
+//        Node temp = head;
+//        while (temp != null) {
+//            System.out.println(temp.name);
+//            temp = temp.next;
+//        }
+//    }
 
 
     public int getlength(){
