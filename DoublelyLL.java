@@ -47,13 +47,13 @@ public class DoublelyLL extends Node{
     }
 
 
-//    public void printMyLList() {
-//        Node temp = head;
-//        while (temp != null) {
-//            System.out.println(temp.data);
-//            temp = temp.next;
-//        }
-//    }
+    public void printMyLList() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.println(temp.data);
+            temp = temp.next;
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class DoublelyLL extends Node{
         list.add("30");
         list.add("50");
         list.add("60");
-      //  list.printMyLList();
+        list.printMyLList();
     }
 
 }
