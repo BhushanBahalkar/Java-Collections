@@ -18,12 +18,12 @@ public class DoublelyLL extends Node{
             head = newNode;
         } else {
             Node temp = head;
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-            temp.next = newNode;
-            newNode.prev = temp;
-        }
+//            while (temp.next != null) {
+//                temp = temp.next;
+//            }
+//            temp.next = newNode;
+//            newNode.prev = temp;
+//        }
     }
 
     public void addAt(int index, String data){
