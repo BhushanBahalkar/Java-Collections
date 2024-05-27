@@ -6,6 +6,7 @@ Less programming effort: Developers don't need to design collections from scratc
 
 Better performance and quality: The framework includes optimized implementations of common data structures and algorithms. This allows developers to use these high-performance implementations, improving the speed and quality of their programs without extra effort.
 
+This repository will be helping you to understand Java Collection framework in depth with methods they use in hidden layer.
 
 
 
