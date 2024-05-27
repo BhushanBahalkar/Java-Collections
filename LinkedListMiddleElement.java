@@ -50,17 +50,17 @@ public class LinkedListMiddleElement extends Node {
     }
 
 
-//    public int getlength(){
-//        Node temp =head;
-//        int count =0;
-//        while(temp!= null){
-//            temp = temp.next;
-//            count++;
-//        }
-//        System.out.println(count);
-//        return count;
-//
-//    }
+    public int getlength(){
+        Node temp =head;
+        int count =0;
+        while(temp!= null){
+            temp = temp.next;
+            count++;
+        }
+        System.out.println(count);
+        return count;
+
+    }
     public void deletemiddlenode(){
         int lengthofLL = getlength();
         int getMiddle = (lengthofLL / 2) - 1;
