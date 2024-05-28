@@ -10,18 +10,18 @@ public class LinkedListMiddleElement extends Node {
         return node;
     }
 
-//    public void add(String name) {
-//        Node newNode = createNode(name);
-//        if (head == null) {
-//            head = newNode;
-//        } else {
-//            Node temp = head;
-//            while (temp.next != null) {
-//                temp = temp.next;
-//            }
-//            temp.next = newNode;
-//        }
-//    }
+    public void add(String name) {
+        Node newNode = createNode(name);
+        if (head == null) {
+            head = newNode;
+        } else {
+            Node temp = head;
+            while (temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = newNode;
+        }
+    }
 
     public void middleElement() {
         if (head == null) {
