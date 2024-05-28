@@ -7,10 +7,10 @@ import java.io.InputStreamReader;
 public class StringFreq{
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter Your String");
-        String str = br.readLine();
-        System.out.println("Input String is " + str);
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        System.out.println("Enter Your String");
+//        String str = br.readLine();
+//        System.out.println("Input String is " + str);
 
         int tempA = 0;
         int tempB = 0;

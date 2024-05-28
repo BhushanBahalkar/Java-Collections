@@ -10,18 +10,18 @@ public class LinkedListMiddleElement extends Node {
         return node;
     }
 
-    public void add(String name) {
-        Node newNode = createNode(name);
-        if (head == null) {
-            head = newNode;
-        } else {
-            Node temp = head;
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-            temp.next = newNode;
-        }
-    }
+//    public void add(String name) {
+//        Node newNode = createNode(name);
+//        if (head == null) {
+//            head = newNode;
+//        } else {
+//            Node temp = head;
+//            while (temp.next != null) {
+//                temp = temp.next;
+//            }
+//            temp.next = newNode;
+//        }
+//    }
 
     public void middleElement() {
         if (head == null) {
@@ -80,11 +80,11 @@ public class LinkedListMiddleElement extends Node {
     public static void main(String[] args) {
         LinkedListMiddleElement list = new LinkedListMiddleElement();
 
-        list.add("20");
-        list.add("30");
-        list.add("50");
-        list.add("60");
-        list.add("70");
+//        list.add("20");
+//        list.add("30");
+//        list.add("50");
+//        list.add("60");
+//        list.add("70");
 
         list.printMyLinkedList();
         list.middleElement();
