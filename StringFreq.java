@@ -23,6 +23,9 @@ public class StringFreq{
                tempB++;
             }
         }
+        for(int j = 0 ; j< 10; j++){
+            System.out.println("HEllo");
+        }
 
         System.out.println("Frequency of 'A': " + tempA);
         System.out.println("Frequency of 'I': " + tempB);
