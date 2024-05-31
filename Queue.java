@@ -9,13 +9,13 @@ public class Queue {
        start++;
     }
 
-    public void dequeue(int[] arr) {
-        arr[end] = 0;
-        int Element = arr[end];
-        System.out.println("Element: " + arr[end]);
-        arr[end] = 0;
-        end++;
-    }
+//    public void dequeue(int[] arr) {
+//        arr[end] = 0;
+//        int Element = arr[end];
+//        System.out.println("Element: " + arr[end]);
+//        arr[end] = 0;
+//        end++;
+//    }
 
     public void printQueue(int[] arr){
         for(int i =end; i< start; i++){
@@ -38,12 +38,6 @@ public class Queue {
         myQueue.printQueue(arr);
         myQueue.dequeue(arr);
         myQueue.printQueue(arr);
-
-
-
-
-
-
 
     }
 }
