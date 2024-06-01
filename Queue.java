@@ -28,12 +28,12 @@ public class Queue {
         int[] arr = new int[10];
 
         Queue myQueue = new Queue();
-//
-//        myQueue.enqueue(10, arr);
-//        myQueue.enqueue(20, arr);
-//        myQueue.enqueue(30, arr);
-//        myQueue.enqueue(40, arr);
-//        myQueue.enqueue(50, arr);
+
+        myQueue.enqueue(10, arr);
+        myQueue.enqueue(20, arr);
+        myQueue.enqueue(30, arr);
+        myQueue.enqueue(40, arr);
+        myQueue.enqueue(50, arr);
 
         myQueue.printQueue(arr);
         myQueue.dequeue(arr);
