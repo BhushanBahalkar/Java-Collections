@@ -33,13 +33,13 @@ public class MyLinkedList extends Node {
         }
     }
 
-    public void removeFirst() {
-        if (head == null) {
-            System.out.println("List is empty.");
-            return;
-        }
-        head = head.next;
-    }
+//    public void removeFirst() {
+//        if (head == null) {
+//            System.out.println("List is empty.");
+//            return;
+//        }
+//        head = head.next;
+//    }
 
     public void removeLast() {
         if (head == null) {
@@ -118,7 +118,7 @@ public class MyLinkedList extends Node {
 //        list.removeAtIndex(1);
 //        list.remove(3);
 
-        list.removeFirst();
+//        list.removeFirst();
         System.out.println("First element removed");
         list.removeLast();
         System.out.println("Last element removed");
