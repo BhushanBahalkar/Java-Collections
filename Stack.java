@@ -24,16 +24,16 @@ public class Stack {
     }
 
 
-//    public int peek() {
-//        if (temp == -1) {
-//            System.out.println("Stack is empty......");
-//            return 0;
-//        }
-//        else {
-//            int val = stack[temp];
-//            return val;
-//        }
-//        }
+    public int peek() {
+        if (temp == -1) {
+            System.out.println("Stack is empty......");
+            return 0;
+        }
+        else {
+            int val = stack[temp];
+            return val;
+        }
+        }
 
 
     public void printStack() {
@@ -72,7 +72,7 @@ class Stackmain{
 
         obj.printStack();
 
-//        System.out.println("Top element is :"+ obj.peek());
+        System.out.println("Top element is :"+ obj.peek());
 
     }
 }
