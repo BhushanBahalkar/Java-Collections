@@ -34,6 +34,15 @@ public class Queue {
         myQueue.enqueue(30, arr);
         myQueue.enqueue(40, arr);
         myQueue.enqueue(50, arr);
+        myQueue.enqueue(40, arr);
+        myQueue.enqueue(50, arr);
+
+        myQueue.enqueue(40, arr);
+        myQueue.enqueue(50, arr);
+
+        myQueue.enqueue(40, arr);
+        myQueue.enqueue(50, arr);
+
 
         myQueue.printQueue(arr);
         myQueue.dequeue(arr);
