@@ -26,9 +26,9 @@ public class DoublelyLL extends Node{
         }
     }
 
-//    public void addAt(int index, String data){
-//
-//    }
+    public void addAt(int index, String data){
+
+    }
 
 
     public void remove(int index) {

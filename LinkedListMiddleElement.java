@@ -23,23 +23,23 @@ public class LinkedListMiddleElement extends Node {
         }
     }
 
-//    public void middleElement() {
-//        if (head == null) {
-//            System.out.println("List is empty");
-//            return;
-//        }
-//        int count = 0;
-//        Node temp = head;
-//        while (temp != null) {
-//            count++;
-//            temp = temp.next;
-//        }
-//        temp = head;
-//        for (int i = 0; i < count / 2; i++) {
-//            temp = temp.next;
-//        }
-//        System.out.println("Middle element: " + temp.name);
-//    }
+    public void middleElement() {
+        if (head == null) {
+            System.out.println("List is empty");
+            return;
+        }
+        int count = 0;
+        Node temp = head;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+        temp = head;
+        for (int i = 0; i < count / 2; i++) {
+            temp = temp.next;
+        }
+        System.out.println("Middle element: " + temp.name);
+    }
 
     public void printMyLinkedList() {
         Node temp = head;
@@ -87,7 +87,7 @@ public class LinkedListMiddleElement extends Node {
 //        list.add("70");
 
         list.printMyLinkedList();
-//        list.middleElement();
+        list.middleElement();
         System.out.println("After deleting middle element:");
         list.deletemiddlenode();
         list.printMyLinkedList();
