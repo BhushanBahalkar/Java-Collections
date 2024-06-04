@@ -12,8 +12,8 @@ public class StringFreq{
         String str = br.readLine();
         System.out.println("Input String is " + str);
 
-        int tempA = 0;
-        int tempB = 0;
+//        int tempA = 0;
+//        int tempB = 0;
 
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
