@@ -11,19 +11,19 @@ public class LLProblem {
         obj.next = null;
         return obj;
     }
-    public void add(String name) {
-        Node newNode = createNode(name);
-        if (head == null) {
-            head = newNode;
-        } else {
-            Node temp = head;
-            while (temp.next != null) {
-                temp = temp.next;
-            }
-            temp.next = newNode;
-            newNode.prev = temp;
-        }
-    }
+//    public void add(String name) {
+//        Node newNode = createNode(name);
+//        if (head == null) {
+//            head = newNode;
+//        } else {
+//            Node temp = head;
+//            while (temp.next != null) {
+//                temp = temp.next;
+//            }
+//            temp.next = newNode;
+//            newNode.prev = temp;
+//        }
+//    }
     public void printMyLList() {
         Node temp = head;
         while (temp != null) {
