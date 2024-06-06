@@ -3,12 +3,12 @@ package Collection;
 public class LinkedListMiddleElement extends Node {
     Node head = null;
 
-    public Node createNode(String name) {
-        Node node = new Node();
-        node.name = name;
-        node.next = null;
-        return node;
-    }
+//    public Node createNode(String name) {
+//        Node node = new Node();
+//        node.name = name;
+//        node.next = null;
+//        return node;
+//    }
 
     public void add(String name) {
         Node newNode = createNode(name);
