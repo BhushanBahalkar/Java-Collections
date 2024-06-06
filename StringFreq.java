@@ -15,13 +15,13 @@ public class StringFreq{
         int tempA = 0;
         int tempB = 0;
 
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            if (ch == 'A') {
-                tempA++;
-            } else if (ch == 'I') {
-               tempB++;
-            }
+//        for (int i = 0; i < str.length(); i++) {
+//            char ch = str.charAt(i);
+//            if (ch == 'A') {
+//                tempA++;
+//            } else if (ch == 'I') {
+//               tempB++;
+//            }
         }
 
 
