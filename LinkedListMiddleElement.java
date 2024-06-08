@@ -93,3 +93,4 @@ public class LinkedListMiddleElement extends Node {
         list.printMyLinkedList();
     }
 }
+//This code finds middle element of linked list
