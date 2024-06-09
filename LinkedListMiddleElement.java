@@ -89,8 +89,8 @@ public class LinkedListMiddleElement extends Node {
         list.printMyLinkedList();
         list.middleElement();
         System.out.println("After deleting middle element:");
-        list.deletemiddlenode();
-        list.printMyLinkedList();
+//        list.deletemiddlenode();
+//        list.printMyLinkedList();
 
     }
 }
