@@ -23,15 +23,15 @@ public class MyLinkedList extends Node {
         }
     }
 
-    public void addFirst(int data) {
-        Node newNode = createNode(String.valueOf(data));
-        if (head == null) {
-            head = newNode;
-        } else {
-            newNode.next = head;
-            head = newNode;
-        }
-    }
+//    public void addFirst(int data) {
+//        Node newNode = createNode(String.valueOf(data));
+//        if (head == null) {
+//            head = newNode;
+//        } else {
+//            newNode.next = head;
+//            head = newNode;
+//        }
+//    }
 
     public void removeFirst() {
         if (head == null) {
