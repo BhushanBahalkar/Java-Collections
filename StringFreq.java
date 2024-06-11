@@ -28,7 +28,7 @@ public class StringFreq{
         System.out.println("Frequency of 'A': " + tempA);
 
         System.out.println("Frequency of 'I': " + tempB);
-     //   System.out.println("The End");
+      System.out.println("The End");
 
     }
 }
