@@ -4,13 +4,13 @@ public class LLProblem {
     Node head =null;
 
 
-    public Node createNode(String data){
-        Node obj = new Node();
-        obj.prev = null;
-        obj.data = data;
-        obj.next = null;
-        return obj;
-    }
+//    public Node createNode(String data){
+//        Node obj = new Node();
+//        obj.prev = null;
+//        obj.data = data;
+//        obj.next = null;
+//        return obj;
+//    }
     public void add(String name) {
         Node newNode = createNode(name);
         if (head == null) {
