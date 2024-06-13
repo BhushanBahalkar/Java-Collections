@@ -81,9 +81,9 @@ public class LinkedListMiddleElement extends Node {
         LinkedListMiddleElement list = new LinkedListMiddleElement();
 
         list.add("20");
-//        list.add("30");
-//        list.add("50");
-//        list.add("60");
+        list.add("30");
+        list.add("50");
+        list.add("60");
         list.add("70");
 
         list.printMyLinkedList();
