@@ -58,25 +58,25 @@ public class MyLinkedList extends Node {
 
 
 
-    public void addAt(int index , int data){
-        Node newNode = createNode(String.valueOf(data));
-
-        if (index == 0){
-            newNode.next = head;
-            head = newNode;
-        }
-         head = null;
-         temp = head;
-        int tempIndex = 0;
-
-        while (temp != null && tempIndex < index) {
-            head = temp;
-            temp = temp.next;
-            tempIndex++;
-        }
-        newNode.next = head;
-        head = newNode;
-    }
+//    public void addAt(int index , int data){
+//        Node newNode = createNode(String.valueOf(data));
+//
+//        if (index == 0){
+//            newNode.next = head;
+//            head = newNode;
+//        }
+//         head = null;
+//         temp = head;
+//        int tempIndex = 0;
+//
+//        while (temp != null && tempIndex < index) {
+//            head = temp;
+//            temp = temp.next;
+//            tempIndex++;
+//        }
+//        newNode.next = head;
+//        head = newNode;
+//    }
 
 
     public void remove(int index) {
